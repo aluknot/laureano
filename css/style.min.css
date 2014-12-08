@@ -1,0 +1,47 @@
+body,html{font-size:15px;height:100%}
+body{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;background:#FFF;margin:0;padding:0;color:#555;text-rendering:optimizeLegibility;min-width:320px}
+.ui.header{font-family:'Source Sans Pro',"Helvetica Neue",Helvetica,Arial,sans-serif}
+.ui.header,h1,h2{font-weight:400!important}
+h1.ui.header{font-size:3em}
+.ui.icon.header,h4.ui.header,h5.ui.header{font-weight:700!important}
+.ui.button{font-weight:400;text-decoration:none}
+a{color:#fff;text-decoration:none}
+p a{font-weight:700}
+.menu .right.menu>.mobile.item{display:none}
+.ui.page.grid.segment{padding-top:3.5rem;padding-bottom:3.5rem}
+.masthead.segment{margin:0;padding-top:4rem;overflow:hidden;background:#ff4800;background:-moz-linear-gradient(top,#ff4800 0,#ff3000 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ff4800),color-stop(100%,#ff3000));background:-webkit-linear-gradient(top,#ff4800 0,#ff3000 100%);background:-o-linear-gradient(top,#ff4800 0,#ff3000 100%);background:-ms-linear-gradient(top,#ff4800 0,#ff3000 100%);background:linear-gradient(to bottom,#ff4800 0,#ff3000 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4800', endColorstr='#ff3000', GradientType=0)}
+.masthead.segment .column{position:relative}
+.masthead.segment .information{margin:3em 1em 1em 200px}
+.masthead.segment .information p{max-width:600px;margin:0 0 2em;font-size:1.2em}
+.masthead.segment h1.ui.header .sub{font-size:.7em}
+.masthead.segment .image{position:absolute;left:0;bottom:-110px}
+.overview .divided.grid .header+p{min-height:100px}
+.link.list .icon,.ui.shape .icon{margin:0;padding:0}
+.ui.cube.shape .side{background-color:transparent}
+i.link.icon{cursor:pointer;opacity:.6}
+i.link.icon.heart{color:#F40000!important}
+i.link.icon.html5{color:#F16529!important}
+i.link.icon.add.sign{color:#40981B!important}
+i.link.icon.chat{color:#1C82A8!important}
+.ui.basic.buttons .button{color:#C4C4C4!important;border-color:#7F7F7F!important}
+.ui.basic.buttons{border:1px solid #7F7F7F!important}
+.works{background-color:#DDD!important;padding-top:3em;border-top:1px solid #AEAEAE}
+.normalpage{font-size:1.2rem!important}
+.normalpage p{line-height:1.8!important}
+.normalpage p a{background:#29657A;border-radius:4px;padding:3px 6px;font-weight:400}
+.normalpage a:hover{background:#111932}
+.normalpage .list a{background:0 0;color:#111932}
+.normalpage .list a:hover{text-decoration:underline}
+.normalpage .top-item{font-weight:700!important;text-decoration:underline!important}
+.normalpage .item:hover .top-item{color:green}
+@media only screen and (max-width :768px){.ui.page.grid.segment{padding-top:2rem;padding-bottom:2rem}
+.menu .right.menu>.item{display:none}
+.menu .right.menu>.mobile.item{display:block}
+h1.ui.header{font-size:1.5em}
+.masthead.segment{background-size:auto}
+.masthead.segment .image{bottom:-65px;width:150px}
+.masthead.segment .button{font-size:1rem}
+.overview .divided.grid .header .icon{font-size:1.5em}
+.overview .divided.grid .header+p{min-height:0}
+.masthead.segment .column{font-size:.7rem}
+.masthead.segment .column p,.selection.list .right.floated{display:none}}
